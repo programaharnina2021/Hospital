@@ -15,7 +15,7 @@ public class Fechas {
 		LocalDate mi = LocalDate.now();
 		Date fecha = new Date();
 		// El constructor no es accesible
-		// LocalDate otra=new LocalDate(0, 0, 0);
+		//LocalDate otra=new LocalDate(0, 0, 0);
 		LocalDate otra = LocalDate.of(1998, 2, 12);
 		System.out.println(otra);
 		System.out.println(otra.isBefore(mi));
